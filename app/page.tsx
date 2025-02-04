@@ -105,7 +105,9 @@ export default function Home() {
           <div className='container mx-auto px-6 max-w-4xl text-center'>
             <h2 className='text-3xl font-bold mb-8'>Get in Touch</h2>
             <p className='text-gray-300 mb-8'>Ready to transform your telecommunications infrastructure? Contact us to discuss your needs.</p>
-            <button className='bg-blue-500 px-8 py-3 rounded-md hover:bg-blue-600 transition-colors'>Contact Us</button>
+            <Link href='mailto:contact@quantum-link-innovations.com'>
+              <button className='bg-blue-500 px-8 py-3 rounded-md hover:bg-blue-600 transition-colors'>Contact Us</button>
+            </Link>
           </div>
         </section>
       </main>
