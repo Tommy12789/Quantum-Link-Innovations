@@ -7,8 +7,11 @@ export default function Home() {
       <header className='fixed w-full bg-[#0a192f]/90 backdrop-blur-sm z-50'>
         <nav className='container mx-auto px-6 py-4'>
           <div className='flex justify-between items-center'>
-            <div className='text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent'>
-              Quantum Link Innovations
+            <div className='text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent '>
+              <img
+                src={'/Image sans arrière-plan.png'}
+                className='h-24 flex items-center justify-center'
+              ></img>
             </div>
             <div className='space-x-8 text-sm'>
               <Link
